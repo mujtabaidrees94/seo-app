@@ -64,7 +64,7 @@ export function SeoGenerator() {
         stop: null
       })
 
-      const data = JSON.parse(chatCompletion.choices[0].message.content) as OutputType
+      const data = JSON.parse(chatCompletion.choices[0].message.content?? "{}") as OutputType
       setOutput(data)
     } catch (error) {
       setError('An error occurred while generating SEO content')
