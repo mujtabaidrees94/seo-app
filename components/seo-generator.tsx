@@ -95,7 +95,7 @@ export function SeoGenerator() {
               />
             </div>
             <div>
-              <label htmlFor="keywords" className="block text-sm font-medium text-gray-700">SEO Keywords (optional)</label>
+              <label htmlFor="keywords" className="block text-sm font-medium text-gray-700">SEO Keywords</label>
               <Input
                 id="keywords"
                 type="text"
